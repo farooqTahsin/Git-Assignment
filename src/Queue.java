@@ -6,6 +6,7 @@ public class Queue {
     }
 
     public void setSize(int size) {
+        if(size<0)return;
         this.size = size;
     }
 }
